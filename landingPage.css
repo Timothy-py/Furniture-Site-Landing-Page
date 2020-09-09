@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 .wave {
     position: absolute;
     width: 100%;
-    bottom: -40px;
+    bottom: -160px;
     color: #fff;
-    opacity: .6;
+    opacity: .3;
 }
 
 header {
@@ -82,15 +82,22 @@ header ul li a {
 
 .content .btn-group {
     margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.content .btn-group li{
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
 }
 
 .content a {
-    float: left;
     display: block;
     padding: 15px 45px;
     text-decoration: none;
     color: #fff;
     border-radius: 50px;
+    margin-bottom: 5px;
 }
 
 .content a.color1{
@@ -100,7 +107,7 @@ header ul li a {
 .our-partners {
     padding: 0 80px;
     position: relative;
-    margin-top: -5%;
+    margin-top: -7%;
 }
 
 .our-partners h3 {
@@ -117,7 +124,6 @@ header ul li a {
 }
 
 .our-partners-inner a{
-    /* display: inline-block; */
     float: left;
     width: 120px;
     height: 120px;
@@ -125,7 +131,6 @@ header ul li a {
     margin-right: 100px;
     border: 1px solid #cacaca;
     border-radius: 10%;
-    /* box-shadow: 5px 5px 5px; */
 }
 
 .our-partners-inner a:hover{
